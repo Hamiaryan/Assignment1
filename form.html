@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Formstyle.css">
+    <title>Employee Information</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="Asset/logo.png" alt="Company Logo">
+            <h1>Hamed IT LTD.</h1>
+        </div>
+    </header>
+
+    <h1>Employee Details</h1>
+    <div class="form-container">
+    
+
+        <form action="process.php" method="post" style="width: 100%;">
+            <div class="form-group">
+                <label for="employee_id">Employee ID:</label>
+                <input type="text" name="employee_id" id="employee_id" placeholder="e.g., EMP123" required>
+            </div>
+            <div class="form-group">
+                <label for="first_name">First Name:</label>
+                <input type="text" name="first_name" id="first_name" placeholder="First Name" required>
+            </div>
+            <div class="form-group">
+                <label for="last_name">Last Name:</label>
+                <input type="text" name="last_name" id="last_name" placeholder="Last Name" required>
+            </div>
+            <div class="form-group">
+                <label for="telephone">Telephone:</label>
+                <input type="tel" name="telephone" id="telephone" placeholder="e.g., (555) 555-5555" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="example@example.com" required>
+            </div>
+            <div class="form-group">
+                <label for="department">Department:</label>
+                <input type="text" name="department" id="department" placeholder="e.g., HR" required>
+            </div>
+            <div class="form-group">
+                <label for="salary_per_time">Salary Per Time:</label>
+                <input type="text" name="salary_per_time" id="salary_per_time" placeholder="$" required>
+            </div>
+            <div class="form-group">
+                <label for="hours_per_month">Monthly Hours:</label>
+                <input type="text" name="hours_per_month" id="hours_per_month" placeholder="hours" required>
+            </div>
+            <div class="form-group">
+                <label for="annual_salary">Annual Salary:</label>
+                <input type="text" name="annual_salary" id="annual_salary" placeholder="$" required>
+            </div>
+            <div class="form-group">
+                <label for="yearly_salary">Yearly Salary:</label>
+                <input type="text" name="yearly_salary" id="yearly_salary" placeholder="$" required>
+            </div>
+            <div class="form-submit" style="width: 100%; margin-top: 20px;">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        &copy; Hamed IT Ltd. All Rights Reserved.
+    </footer>
+</body>
+</html>

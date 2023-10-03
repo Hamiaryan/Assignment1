@@ -1,0 +1,79 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Center the title */
+h1 {
+    text-align: center;
+}
+
+/* Style the header and footer */
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.logo img {
+    max-width: 100px;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+/* Style the form container */
+.form-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: #414040;
+    animation: gradientGrow 5s linear infinite;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Style form elements */
+.form-group {
+    margin-bottom: 30px;
+    flex: 1;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Style the submit button */
+.form-submit {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.form-submit button {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
